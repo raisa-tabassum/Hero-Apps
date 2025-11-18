@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "image": "../src/assets/demo-app(6).webp",
+    "title": "ToDo List With Reminder",
+    "companyName": "productive.io",
+    "size": 291,
+    "reviews": "54K",
+    "ratingAvg": 4.9,
+    "downloads": "8M",
+    "description": "A powerful Pomodoro-based productivity app designed to help you stay organized throughout the day. It includes smart reminders that adjust based on your daily usage pattern. You can create tasks, set priorities, and track progress visually with clean UI. The deep-work mode helps eliminate distractions and keeps you focused on essential tasks. Custom categories and labels allow you to manage both personal and professional tasks easily. Built-in analytics show weekly and monthly productivity insights. Cloud sync ensures your tasks stay updated across all devices. It’s perfect for students, professionals, and anyone who wants a more structured day.",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 7800 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "../src/assets/demo-app(5).webp",
+    "title": "DeepFocus Timer",
+    "companyName": "Mindful Labs",
+    "size": 180,
+    "reviews": "22K",
+    "ratingAvg": 4.7,
+    "downloads": "5M",
+    "description": "DeepFocus Timer is built for users who want a calm, distraction-free work environment. Its minimalist interface helps you concentrate without unnecessary clutter. The app includes multiple focus modes, including traditional Pomodoro, deep-work sessions, and custom intervals. Audio cues and gentle alerts keep you aware of progress without breaking concentration. It maintains a detailed log of your daily focus time, helping you understand your habits. With soothing background sounds, it enhances your productivity experience. The app works offline and synchronizes your session history once you're online. Perfect for developers, writers, designers, and students.",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "../src/assets/demo-app(2).webp",
+    "title": "HabitFlow",
+    "companyName": "Flowtech",
+    "size": 165,
+    "reviews": "31K",
+    "ratingAvg": 4.8,
+    "downloads": "12M",
+    "description": "HabitFlow is a beautifully designed app focused on creating lasting habits through consistency and motivation. It helps you build streaks, track progress, and stay accountable with visual habit calendars. You can set daily, weekly, and custom schedules for each habit. The app sends smart reminders based on missed streaks and progress patterns. Motivational messages appear when streaks get longer to keep you inspired. Charts and analytics show how habits are improving your lifestyle over time. It supports multiple habits together and organizes them neatly. Ideal for fitness, study, meditation, reading, and self-growth goals.",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3300 },
+      { "name": "4 star", "count": 6400 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "../src/assets/demo-app(4).webp",
+    "title": "BudgetMind",
+    "companyName": "SmartFinance",
+    "size": 205,
+    "reviews": "42K",
+    "ratingAvg": 4.6,
+    "downloads": "900K",
+    "description": "BudgetMind helps you take complete control of your financial life with powerful analytics and easy tools. You can track daily expenses, create monthly budgets, and manage savings goals. The app categorizes your spending automatically so you can understand where your money goes. Visual charts and graphs show financial trends clearly. It includes smart alerts when you overspend or reach budget limits. Secure cloud sync ensures your data stays safe and updated. Multi-currency support makes it ideal for global users. Whether you're managing a household budget or personal expenses, BudgetMind keeps everything organized.",
+    "ratings": [
+      { "name": "1 star", "count": 1400 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 3800 },
+      { "name": "4 star", "count": 7600 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "../src/assets/demo-app(3).webp",
+    "title": "QuickNote Pro",
+    "companyName": "WriteSoft",
+    "size": 129,
+    "reviews": "15K",
+    "ratingAvg": 4.5,
+    "downloads": "450K",
+    "description": "QuickNote Pro is a fast, lightweight note-taking solution built for students and professionals. It features rich text editing, tagging, and folder-based organization. Notes sync instantly across devices so you never lose important information. You can attach images, voice notes, checklists, and documents for more detailed entries. The search engine is optimized to find notes instantly, even in large collections. Cloud backup ensures long-term safety. The app supports offline mode for remote users. Whether you're taking class notes or planning projects, QuickNote Pro keeps your ideas organized and accessible.",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 5300 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "../src/assets/demo-app(1).webp",
+    "title": "AquaTrack",
+    "companyName": "HealthFlow",
+    "size": 98,
+    "reviews": "19K",
+    "ratingAvg": 4.7,
+    "downloads": "2M",
+    "description": "AquaTrack helps you stay hydrated with personalized water intake reminders and smart analytics. It calculates your daily hydration needs based on weight, climate, and activity level. The app sends timely reminders so you never miss a water break. You can log water intake with a single tap. Charts and progress rings show how consistent you are throughout the day. The app integrates with fitness trackers to sync hydration requirements during workouts. Its clean UI makes daily tracking effortless. Ideal for health-focused users and anyone trying to maintain a healthier lifestyle.",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "../src/assets/fitTrack.png",
+    "title": "FitTrack Daily",
+    "companyName": "ActiveCorp",
+    "size": 210,
+    "reviews": "88K",
+    "ratingAvg": 4.8,
+    "downloads": "15M",
+    "description": "FitTrack Daily is an all-in-one fitness companion designed for users of all levels. It includes workout tracking, calorie logging, and personalized fitness plans. The app monitors steps, distance, heart rate, and training intensity. You can choose from guided workout sessions, from beginner to advanced levels. Nutrition tracking helps balance macros and daily meals. Progress charts show weight changes, muscle gain, and performance improvement. The app syncs with wearables and smartwatches. Whether you’re losing weight or building strength, FitTrack Daily supports your journey.",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1900 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 8200 },
+      { "name": "5 star", "count": 24000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "../src/assets/calender.png",
+    "title": "MyCalendar+",
+    "companyName": "PlanIt Studio",
+    "size": 150,
+    "reviews": "26K",
+    "ratingAvg": 4.6,
+    "downloads": "700K",
+    "description": "MyCalendar+ offers a clean and intuitive scheduling experience for managing events and appointments. You can create recurring tasks, set reminders, and organize your day efficiently. The smart scheduler automatically suggests best times based on your routine. It syncs with Google Calendar and other services for seamless updates. Widgets provide quick access to upcoming tasks. Color-coded categories help you visualize different types of events. The interface is minimal yet powerful. It’s perfect for students, professionals, and busy families.",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 6400 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "../src/assets/MinimalFocus.png",
+    "title": "MinimalFocus",
+    "companyName": "PureMind",
+    "size": 105,
+    "reviews": "12K",
+    "ratingAvg": 4.4,
+    "downloads": "320K",
+    "description": "MinimalFocus is built to help users enjoy a distraction-free work experience. The interface removes unnecessary elements and keeps only the essentials. You can run simple timers, structured work sessions, and long focus intervals. The app plays soft background sounds to enhance deep concentration. It logs your daily productivity and shows clean, minimal charts. Dark mode makes it perfect for night study sessions. Timer presets allow quick session setup. Ideal for minimalists who want an uncluttered productivity tool.",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 3200 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "../src/assets/CalmNest.png",
+    "title": "CalmNest",
+    "companyName": "Zenify",
+    "size": 185,
+    "reviews": "54K",
+    "ratingAvg": 4.9,
+    "downloads": "6M",
+    "description": "CalmNest is your personal relaxing companion, offering guided meditation and breathing exercises. It includes sleep stories, nature sounds, and stress-relief audio tracks. You can choose sessions of different durations based on your daily schedule. The app tracks stress levels and recommends relaxation techniques accordingly. Sleep analytics help you understand your nightly rest patterns. Beautiful UI and calming colors create a peaceful experience. Offline mode ensures access even without internet. Perfect for improving sleep, reducing anxiety, and finding mental calm.",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 18000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "../src/assets/StudyMate.png",
+    "title": "StudyMate",
+    "companyName": "EduCraft",
+    "size": 140,
+    "reviews": "18K",
+    "ratingAvg": 4.6,
+    "downloads": "1.2M",
+    "description": "StudyMate is a complete study planning app built for students who want organized learning sessions. You can create subjects, break topics into tasks, and plan week-wise study schedules. Smart reminders alert you before each session. Focus mode removes interruptions during study time. Progress graphs show how much syllabus you’ve completed. The app includes revision tracking and exam countdowns. Study insights help you analyze strong and weak areas. It's ideal for school, college, and competitive exam students.",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 7600 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "../src/assets/SleepWell.png",
+    "title": "SleepWell",
+    "companyName": "NightLabs",
+    "size": 160,
+    "reviews": "47K",
+    "ratingAvg": 4.8,
+    "downloads": "11M",
+    "description": "SleepWell helps you understand and improve your sleep quality through smart monitoring and insights. It features sleep cycle tracking, soothing bedtime music, and AI-powered smart alarms. The app analyzes breathing patterns, movement, and noise levels during sleep. You receive personalized suggestions to fix irregular sleep habits. Nightly reports show your sleep phases in detail. Meditation and relaxation sounds help prepare your mind before bed. Its elegant interface makes it relaxing to use. Perfect for users trying to overcome insomnia, stress, or irregular sleep routines.",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 9100 },
+      { "name": "5 star", "count": 18000 }
+    ]
+  }
+]
