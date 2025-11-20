@@ -23,18 +23,6 @@ const Apps = () => {
     }, 500);
   };
   return (
-    // <div className="max-w-7xl mx-auto mt-20 mb-20">
-    //   <div className="text-center">
-    //     <h1 className="text-5xl font-bold mb-6">Our All Applications</h1>
-    //     <p className="mb-6 font-normal text-2xl text-[#627382]">
-    //       Explore All Apps on the Market developed by us. We code for Millions
-    //     </p>
-    //   </div>
-    //   <div className="flex justify-between items-center py-5">
-    //     <h1 className="text-3xl font-semibold">
-    //       <span>({searchedApps.length}) </span>
-    //        Apps Found
-    //     </h1>
     <div className="my-20">
       <div className="text-center">
         <h1 className="text-5xl font-bold mb-6">Our All Applications</h1>
@@ -42,8 +30,8 @@ const Apps = () => {
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
-        <h2 className="text-3xl font-semibold">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center px-12">
+        <h2 className="text-3xl font-semibold ">
           <span>({searchedApps.length}) </span>
           Apps Found
         </h2>
