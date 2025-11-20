@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer footer-horizontal footer-center text-base-content rounded p-10 bg-[#001931] text-white">
       <nav>
         <div className="grid grid-flow-col gap-4">
-          <Link to="/home" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <img src={logo} alt="logo" className="w-10" />
             <span className="text-lg font-bold text-white">HERO.IO</span>
           </Link>
