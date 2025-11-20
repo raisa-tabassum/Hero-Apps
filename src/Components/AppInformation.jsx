@@ -3,10 +3,16 @@ import React from "react";
 import downloadIcon from "../assets/icon-downloads.png";
 import ratingIcon from "../assets/icon-ratings.png";
 import reviewIcon from "../assets/icon-review.png";
-import { Link } from "react-router";
+import { loadInstallation, updateInstallation } from "../Utils/localStorage";
+import { toast } from "react-toastify";
 
-const AppInformation = ({app}) => {
-  const { image, title, companyName, downloads, ratingAvg, reviews } = app;
+const AppInformation = ({ app }) => {
+  const { image, title, companyName, downloads, ratingAvg, reviews, size, id } =
+    app;
+
+  const installedApps = loadInstallation();
+
+  const isInstalled = installedApps.some((a) => a.id === id);
 
   return (
     <div className="card lg:card-side bg-base-50 max-w-7xl mx-auto my-10">
@@ -37,8 +43,19 @@ const AppInformation = ({app}) => {
               <h2 className="font-extrabold text-3xl">{reviews}</h2>
             </div>
           </div>
-          <button className="btn border-none text-white w-60 h-12 bg-[#00D390] text-lg">
-            Install Now (291 MB)
+          <button
+            onClick={() => {
+              if (!isInstalled) {
+                updateInstallation(app);
+                toast.success(`${companyName} Installed Successfully!`);
+              }
+            }}
+            disabled={isInstalled}
+            className={`btn border-none text-white w-60 h-12 text-lg ${
+              isInstalled ? "bg-gray-400" : "bg-[#00D390]"
+            }`}
+          >
+            {isInstalled ? "Installed" : "Install Now ({size} MB)"}
           </button>
         </div>
       </div>
@@ -46,4 +63,3 @@ const AppInformation = ({app}) => {
   );
 };
 export default AppInformation;
-// onClick={()=> install()} 

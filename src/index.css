@@ -1,2 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.active{
+    color: blueviolet;
+    font-weight:bold;
+    border-bottom: 1px solid blueviolet;
+}

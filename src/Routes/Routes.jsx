@@ -4,6 +4,7 @@ import Home from "../Pages/Home";
 import ErrorPage from "../Pages/ErrorPage";
 import Apps from "../Pages/Apps";
 import AppDetails from "../Pages/AppDetails";
+import InstalledApps from "../Pages/InstalledApps";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
           const data = await res.json();
           return data.find((app) => app.id === parseInt(params.id));
         },
+      },
+      {
+        path: "/installation",
+        element: <InstalledApps></InstalledApps>,
       },
     ],
   },

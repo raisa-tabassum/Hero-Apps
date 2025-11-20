@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import logo from "../assets/logo.png";
 import { FaGithub } from "react-icons/fa";
 
@@ -15,13 +15,13 @@ const Navbar = () => {
       <div className="navbar-center">
         <ul className="menu menu-horizontal px-1 font-semibold">
           <li>
-            <Link to='/'>Home</Link>
+            <NavLink to='/' className={({isActive}) => (isActive ? "active" : "")}>Home</NavLink>
           </li>
           <li>
-            <Link to='/apps'>Apps</Link>
+            <NavLink to='/apps' className={({isActive}) => (isActive ? "active" : "")}>Apps</NavLink>
           </li>
           <li>
-            <Link to='/installation'>Installation</Link>
+            <NavLink to='/installation' className={({isActive}) => (isActive ? "active" : "")}>Installation</NavLink>
           </li>
         </ul>
       </div>
