@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "../src/assets/demo-app(6).webp",
+    "image": "./assets/demo-app(6).webp",
     "title": "ToDo List With Reminder",
     "companyName": "productive.io",
     "size": 291,
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "../src/assets/demo-app(5).webp",
+    "image": "./assets/demo-app(5).webp",
     "title": "DeepFocus Timer",
     "companyName": "Mindful Labs",
     "size": 180,
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "../src/assets/demo-app(2).webp",
+    "image": "./assets/demo-app(2).webp",
     "title": "HabitFlow",
     "companyName": "Flowtech",
     "size": 165,
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "../src/assets/demo-app(4).webp",
+    "image": "./assets/demo-app(4).webp",
     "title": "BudgetMind",
     "companyName": "SmartFinance",
     "size": 205,
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "../src/assets/demo-app(3).webp",
+    "image": "./assets/demo-app(3).webp",
     "title": "QuickNote Pro",
     "companyName": "WriteSoft",
     "size": 129,
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "../src/assets/demo-app(1).webp",
+    "image": "./assets/demo-app(1).webp",
     "title": "AquaTrack",
     "companyName": "HealthFlow",
     "size": 98,
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "image": "../src/assets/fitTrack.png",
+    "image": "./assets/fitTrack.png",
     "title": "FitTrack Daily",
     "companyName": "ActiveCorp",
     "size": 210,
@@ -127,7 +127,7 @@
   },
   {
     "id": 8,
-    "image": "../src/assets/calender.png",
+    "image": "./assets/calender.png",
     "title": "MyCalendar+",
     "companyName": "PlanIt Studio",
     "size": 150,
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "image": "../src/assets/MinimalFocus.png",
+    "image": "./assets/MinimalFocus.png",
     "title": "MinimalFocus",
     "companyName": "PureMind",
     "size": 105,
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "../src/assets/CalmNest.png",
+    "image": "./assets/CalmNest.png",
     "title": "CalmNest",
     "companyName": "Zenify",
     "size": 185,
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "../src/assets/StudyMate.png",
+    "image": "./assets/StudyMate.png",
     "title": "StudyMate",
     "companyName": "EduCraft",
     "size": 140,
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "../src/assets/SleepWell.png",
+    "image": "./assets/SleepWell.png",
     "title": "SleepWell",
     "companyName": "NightLabs",
     "size": 160,

@@ -1,5 +1,5 @@
 import React from "react";
-import ErrorImg from "../assets/error-404.png";
+import ErrorImg from "../../public/assets/error-404.png";
 import { Link } from "react-router";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";

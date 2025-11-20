@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { loadInstallation, uninstall } from "../Utils/localStorage";
-import downloadIcon from "../assets/icon-downloads.png";
-import ratingIcon from "../assets/icon-ratings.png";
+import downloadIcon from "../../public/assets/icon-downloads.png";
+import ratingIcon from "../../public/assets/icon-ratings.png";
 
 const InstalledApps = () => {
   const [installed, setInstalled] = useState(() => loadInstallation());

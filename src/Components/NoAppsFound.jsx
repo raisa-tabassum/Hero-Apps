@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-import NotFoundedApps from "../assets/App-Error.png"
+import NotFoundedApps from "../../public/assets/App-Error.png"
 
 const NoAppsFound = () => {
   return (

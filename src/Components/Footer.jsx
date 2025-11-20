@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import logo from "../assets/logo.png";
+import logo from "../../public/assets/logo.png";
 import { Link } from "react-router";
 
 const Footer = () => {

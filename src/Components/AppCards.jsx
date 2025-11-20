@@ -1,6 +1,6 @@
 import React from "react";
-import downloadIcon from "../assets/icon-downloads.png";
-import ratingIcon from "../assets/icon-ratings.png";
+import downloadIcon from "../../public/assets/icon-downloads.png";
+import ratingIcon from "../../public/assets/icon-ratings.png";
 import { Link } from "react-router";
 
 const AppCards = ({ app }) => {

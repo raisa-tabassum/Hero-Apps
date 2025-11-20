@@ -1,8 +1,8 @@
 import React from "react";
 // import { useLoaderData} from "react-router";
-import downloadIcon from "../assets/icon-downloads.png";
-import ratingIcon from "../assets/icon-ratings.png";
-import reviewIcon from "../assets/icon-review.png";
+import downloadIcon from "../../public/assets/icon-downloads.png";
+import ratingIcon from "../../public/assets/icon-ratings.png";
+import reviewIcon from "../../public/assets/icon-review.png";
 import { loadInstallation, updateInstallation } from "../Utils/localStorage";
 import { toast } from "react-toastify";
 
