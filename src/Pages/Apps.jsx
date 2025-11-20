@@ -36,7 +36,7 @@ const Apps = () => {
             <span>({searchedApps.length}) </span>
             Apps Found
           </h2>
-          <label className="input bg-gray-100">
+          <label className="input bg-gray-100 sm:mt-5">
             <FaSearch className="text-gray-400 text-xl" />
             <input
               value={search}
@@ -59,7 +59,7 @@ const Apps = () => {
         ) : searchedApps.length === 0 ? (
           <NoAppsFound />
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-auto my-10 px-20">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-auto my-10 px-20 justify-items-center">
             {searchedApps.map((app) => (
               <AppCards key={app.id} app={app}></AppCards>
             ))}

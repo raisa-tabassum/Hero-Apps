@@ -14,7 +14,7 @@ const TopApps = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-auto my-10 px-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-auto my-10 px-20 justify-items-center">
         {featuredApps.map((app) => (
           <AppCards key={app.id} app={app}></AppCards>
         ))}
