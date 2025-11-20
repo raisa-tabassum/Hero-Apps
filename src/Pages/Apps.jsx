@@ -23,29 +23,39 @@ const Apps = () => {
     }, 500);
   };
   return (
-    <div className="text-center my-12">
-      <div>
-        <h1 className="text-4xl font-bold">Our All Applications</h1>
-        <p className="mt-2 text-[#627382]">
+    // <div className="max-w-7xl mx-auto mt-20 mb-20">
+    //   <div className="text-center">
+    //     <h1 className="text-5xl font-bold mb-6">Our All Applications</h1>
+    //     <p className="mb-6 font-normal text-2xl text-[#627382]">
+    //       Explore All Apps on the Market developed by us. We code for Millions
+    //     </p>
+    //   </div>
+    //   <div className="flex justify-between items-center py-5">
+    //     <h1 className="text-3xl font-semibold">
+    //       <span>({searchedApps.length}) </span>
+    //        Apps Found
+    //     </h1>
+    <div className="my-20">
+      <div className="text-center">
+        <h1 className="text-5xl font-bold mb-6">Our All Applications</h1>
+        <p className="mb-6 font-normal text-2xl text-[#627382]">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
-      <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <h2 className="text-2xl font-bold mt-12 text-[#001931]">
-            <span>({searchedApps.length}) </span>
-            Apps Found
-          </h2>
-          <label className="input bg-gray-100 sm:mt-5">
-            <FaSearch className="text-gray-400 text-xl" />
-            <input
-              value={search}
-              type="search"
-              onChange={handleSearch}
-              placeholder="Search Products"
-            />
-          </label>
-        </div>
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
+        <h2 className="text-3xl font-semibold">
+          <span>({searchedApps.length}) </span>
+          Apps Found
+        </h2>
+        <label className="input bg-gray-100 sm:mt-5">
+          <FaSearch className="text-gray-400 text-xl" />
+          <input
+            value={search}
+            type="search"
+            onChange={handleSearch}
+            placeholder="Search Products"
+          />
+        </label>
       </div>
       <div>
         {loading ? (

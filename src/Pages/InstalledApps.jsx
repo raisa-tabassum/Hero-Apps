@@ -46,7 +46,7 @@ const InstalledApps = () => {
     setInstalled((prev) => prev.filter((p) => p.id !== id));
   };
   return (
-    <div className="max-w-7xl mx-auto mt-20 mb-20">
+    <div className="max-w-7xl mx-auto my-20">
       <div className="text-center">
         <h1 className="text-5xl font-bold mb-6">Your Installed Apps</h1>
         <p className="mb-6 font-normal text-2xl text-[#627382]">
