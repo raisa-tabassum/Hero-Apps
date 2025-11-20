@@ -15,7 +15,7 @@ const AppInformation = ({ app }) => {
   const isInstalled = installedApps.some((a) => a.id === id);
 
   return (
-    <div className="card lg:card-side bg-base-50 max-w-7xl mx-auto my-10">
+    <div className="card lg:card-side bg-base-50 max-w-7xl mx-auto my-10 sm:px-5 md:px-0">
       <figure>
         <img className="w-[285px] h-[285px]" src={image} />
       </figure>
@@ -55,7 +55,7 @@ const AppInformation = ({ app }) => {
               isInstalled ? "bg-gray-400" : "bg-[#00D390]"
             }`}
           >
-            {isInstalled ? "Installed" : "Install Now ({size} MB)"}
+            {isInstalled ? "Installed" : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>
