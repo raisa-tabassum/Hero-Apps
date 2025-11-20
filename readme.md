@@ -14,12 +14,12 @@ Key Features:
 
 
 Technologies Used:
-React – For building user interfaces  
-React Router DOM – Handling routing and navigation  
-Tailwind CSS – Utility-first CSS framework for styling  
-DaisyUI – Component library built on Tailwind CSS  
-Recharts – Charts for visualizing app ratings  
-React Icons – Icons for buttons and UI elements  
-Axios – Fetching data from JSON files  
-React Toastify – Toast notifications for actions like Install  
-LocalStorage – Client-side storage for installed apps
+* React – For building user interfaces  
+* React Router DOM – Handling routing and navigation  
+* Tailwind CSS – Utility-first CSS framework for styling  
+* DaisyUI – Component library built on Tailwind CSS  
+* Recharts – Charts for visualizing app ratings  
+* React Icons – Icons for buttons and UI elements  
+* Axios – Fetching data from JSON files  
+* React Toastify – Toast notifications for actions like Install  
+* LocalStorage – Client-side storage for installed apps
