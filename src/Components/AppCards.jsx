@@ -13,10 +13,10 @@ const AppCards = ({ app }) => {
       <div className="px-3">
         <h2 className="card-title">{title}</h2>
         <div className="card-actions my-4 flex justify-between">
-          <div className="badge text-[#00D390]">
+          <div className="badge text-[#00D390] bg-gray-100">
             <img className="w-3" src={downloadIcon} /> <span>{downloads}</span>
           </div>
-          <div className="badge text-[#FF8811]">
+          <div className="badge text-[#FF8811] bg-orange-100">
             <img className="w-3" src={ratingIcon} /> <span>{ratingAvg}</span>
           </div>
         </div>

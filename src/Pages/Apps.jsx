@@ -13,7 +13,7 @@ const Apps = () => {
   const searchedApps = term
     ? apps.filter((app) => app.title.toLowerCase().includes(term))
     : apps;
-  console.log(apps);
+  // console.log(apps);
   const handleSearch = (e) => {
     setSearch(e.target.value);
     setLoading(true);
