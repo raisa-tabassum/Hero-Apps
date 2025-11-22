@@ -30,8 +30,8 @@ const Apps = () => {
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center px-12">
-        <h2 className="text-3xl font-semibold ">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center px-12 space-y-5">
+        <h2 className="text-3xl font-semibold">
           <span>({searchedApps.length}) </span>
           Apps Found
         </h2>

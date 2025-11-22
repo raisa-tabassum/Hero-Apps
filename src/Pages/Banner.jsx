@@ -6,7 +6,7 @@ import BannerImg from '../../public/assets/hero.png'
 const Banner = () => {
   return (
     <div className="max-w-screen-md mx-auto mt-20 text-center">
-      <h1 className="text-7xl font-bold mb-6">
+      <h1 className="text-6xl md:text-7xl  font-bold mb-6">
         We Build <span className="text-[#632EE3]">Productive </span>Apps
       </h1>
       <p className="mb-6 font-normal text-lg text-[#627382]">

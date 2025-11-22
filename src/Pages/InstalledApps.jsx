@@ -53,7 +53,7 @@ const InstalledApps = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="flex justify-between items-center py-5">
+      <div className="flex flex-col md:flex-row space-y-5 justify-between items-center py-5">
         <h1 className="text-3xl font-semibold">
           <span>{installed.length} Products Found</span>
         </h1>
@@ -83,7 +83,7 @@ const InstalledApps = () => {
                 />
               </figure>
             </div>
-            <div className="card-body">
+            <div className="card-body px-4">
               <h2 className="card-title text-xl">{a.companyName}</h2>
               <div className="flex items-center gap-3">
                 <div className="flex items-center gap-1">
@@ -91,7 +91,6 @@ const InstalledApps = () => {
                   <p className="text-[#00D390] text-lg">{a.downloads}</p>
                 </div>
                 <div className="flex items-center gap-1">
-                  <img className="w-4 h-4" src={ratingIcon} alt="" />
                   <p className="text-[#627382] text-lg">{a.ratingAvg}</p>
                 </div>
                 <div>
